@@ -9,7 +9,7 @@ const WishlistButton = () => {
         <Heart className="w-4 h-4" />{" "}
         <span className="text-sm">Wishlist</span>{" "}
         <Badge variant="ghost">
-          <span className="text-xs">4</span>
+          4
         </Badge>
       </Button>
     </div>

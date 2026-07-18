@@ -9,7 +9,7 @@ import { LayoutGrid } from "lucide-react";
 
 const NavigationMenu = () => {
   return (
-    <Select defaultValue="All Categories">
+    <Select defaultValue="all">
       <SelectTrigger className="w-45 text-sm">
         <div className="flex items-center gap-2">
           <LayoutGrid className="w-4 h-4" />

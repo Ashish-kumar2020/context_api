@@ -8,7 +8,8 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <div className="h-18 sticky top-0 z-50 bg-white flex items-center gap-6 px-6">
+    <header className="h-16 sticky top-0 z-50 border-b backdrop-blur-md bg-background/80 flex items-center gap-5 px-6 "
+    >
       {/* Logo */}
       <Logo />
 
@@ -27,7 +28,7 @@ const Header = () => {
         <ThemeToggle />
         <Profile />
       </div>
-    </div>
+    </header>
   );
 };
 
