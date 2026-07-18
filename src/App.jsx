@@ -1,9 +1,12 @@
-import { Button } from "./components/ui/button";
+import Header from "./components/Header/Header";
+
 
 
 const App = () => {
  
-  return <Button variant="outline">Click me</Button>
+  return <>
+    <Header/>
+  </>
 };
 
 export default App;
